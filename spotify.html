@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify - Web Player: Music for Everyone</title>
+  <link rel="icon" href="logo.png" />
+
+  <!-- Font Awesome CDN (v5.15.4) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="spotify.css" />
+</head>
+<body>
+  <div class="main">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="nav">
+        <div class="nav-option">
+          <i class="fas fa-home"></i>
+          <a href="#">Home</a>
+        </div>
+        <div class="nav-option">
+          <i class="fas fa-search"></i>
+          <a href="#">Search</a>
+        </div>
+      </div>
+
+      <div class="library">
+        <div class="options">
+            <div class="lib-options">
+                <img src="library_icon.png">
+                <a href="#">Your library</a>
+            </div>
+            <div class="icons">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-arrow-right"></i>
+            </div>
+
+            
+        </div>
+        <div class="lib-box">
+          <div class="box">
+            <p class="box-p1"> Create your first playlist</p>
+            <p class="box-p2">It's easy we'll help you </p>
+            <button class="badge"> Create playlist</button>
+          </div>
+
+          <div class="box">
+            <p class="box-p1"> Lets find some podcasts to follow</p>
+            <p class="box-p2">we'll keep u updated </p>
+            <button class="badge"> Browse podcast</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+      
+      <div class="sticky-nav">
+        <div class="sticky-nav-icons">
+          <img src="backward_icon.png">
+          <img src="forward_icon.png" class="hide">
+        </div>
+        
+        <div class="sticky-nav-options"></div>
+        <button class="badge nav-iteam"> explore premium</button>
+        <button class="badge nav-iteam"><i class="fas fa-download" style="margin-right: 5px;"></i>Install App</button>
+        <i class="fas fa-user "></i>
+      </div>
+      <div class="cards">
+        <h2>Recently played</h2>
+        <div class="cards-container" >
+          <div class="card">
+            <img src="card1img.jpeg" class="card-img">
+            <p class="card-title">Top 5</p>
+            <div class="card-info">Your daily updates....</div>
+
+          </div>
+        </div>
+
+
+        <h2>Trending now </h2>
+        <div class="cards-container" >
+          <div class="card">
+            <img src="card2img.jpeg" class="card-img">
+            <p class="card-title">Top 5</p>
+            <div class="card-info">Your daily updates....</div>
+          </div>
+
+          <div class="card">
+            <img src="card3img.jpeg" class="card-img">
+            <p class="card-title">Top 5</p>
+            <div class="card-info">Your daily updates....</div>
+          </div>
+
+          <div class="card">
+            <img src="card4img.jpeg" class="card-img">
+            <p class="card-title">Top 5</p>
+            <div class="card-info">Your daily updates....</div>
+          </div>
+        </div>
+
+        <h2>Featured chart </h2>
+        <div class="cards-container" >
+          <div class="card">
+            <img src="card5img.jpeg" class="card-img">
+            <p class="card-title">Top 50-global</p>
+            <div class="card-info">Your daily updates....</div>
+          </div>
+
+          <div class="card">
+            <img src="card6img.jpeg" class="card-img">
+            <p class="card-title">Top songs </p>
+            <div class="card-info">Your daily updates....</div>
+          </div>
+
+          <div class="card">
+            <img src="card1img.jpeg" class="card-img">
+            <p class="card-title">Top songs-india</p>
+            <div class="card-info">Your daily updates....</div>
+          </div>
+
+      </div>
+        <div class="footer">
+          <div class="line">
+
+          </div>
+        </div>
+    </div>
+
+    <!-- Music Player Footer -->
+    <div class="music-player">
+      <div class="album">
+        
+        <img src="album_picture.jpeg" class="album-image">
+        <p class="title">Daylight</p>
+        <img src="album_icon1.png" class="album-icon">
+        <img src="album_icon2.png" class="album-icon">
+        
+
+      </div>
+      <div class="player">
+        <div class="player-controls">
+          <img src="player_icon1.png" class="player-control-icon">
+          <img src="player_icon2.png" class="player-control-icon">
+          <img src="player_icon3.png" class="player-control-icon" style="opacity: 1; height: 1.5rem ;">
+          <img src="player_icon4.png" class="player-control-icon">
+          <img src="player_icon5.png" class="player-control-icon">
+        </div>
+        <div class="playback-bar">
+          <span class="curr-time">00.00</span>
+          <input type="range" min="0" max="100" class="progress-bar" step="1">
+          <span class="tot-time">3.33</span>
+        </div>
+      </div> 
+      <div class="controls">
+        <img src="controls_icon1.png" class="control-icon" />
+        <img src="controls_icon2.png" class="control-icon" />
+        <img src="controls_icon3.png" class="control-icon" />
+        <img src="controls_icon4.png" class="control-icon" />
+        <img src="controls_icon5.png" class="control-icon" />
+        <input type="range" class="volume-bar" min="0" max="100" value="50" />
+      </div>
+
+
+    </div>
+  </div>
+</body>
+</html>
+
