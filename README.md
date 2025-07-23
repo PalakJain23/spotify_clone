@@ -1,7 +1,6 @@
 # 🎵 Spotify Web UI Clone
 
-A **responsive music player interface** inspired by Spotify, built using **HTML and CSS only**. This project mimics the layout and style of Spotify's web player, providing a sleek and engaging front-end music<img width="1891" height="922" alt="Screenshot 2025-07-23 173740" src="https://github.com/user-attachments/assets/144ed831-a09f-4f6f-bb28-0ff5986312c5" />
- streaming experience.
+A **responsive music player interface** inspired by Spotify, built using **HTML and CSS only**. This project mimics the layout and style of Spotify's web player, providing a sleek and engaging front-end music
 
 ---
 
