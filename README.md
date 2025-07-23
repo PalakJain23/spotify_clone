@@ -5,8 +5,8 @@ A **responsive music player interface** inspired by Spotify, built using **HTML 
 ---
 
 ## 📸 Screenshot
+![Uploading Screenshot 2025-07-23 173740.png…]()
 
-![UI Preview](./09b7b8ef-9ac2-43d5-8e7e-5d676d1b0e0a.png)
 
 ---
 
@@ -44,7 +44,9 @@ spotify-clone/
 │ ├── logo.png
 │ ├── card1img.jpeg
 │ ├── ...
-└── README.md # Project documentation
+├── README.md # Project documentation
+
+
 
 
 
